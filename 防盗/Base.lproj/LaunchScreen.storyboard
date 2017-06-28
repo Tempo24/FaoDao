@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +17,46 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e4Y-yk-z1W">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9-防盗链.png" translatesAutoresizingMaskIntoConstraints="NO" id="kFp-HZ-LDt">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="b2J-k2-0CG"/>
+                                            <constraint firstAttribute="height" constant="60" id="eeI-Rf-ECN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CTS-防盗" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSs-vY-dvM">
+                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kSs-vY-dvM" firstAttribute="height" secondItem="kFp-HZ-LDt" secondAttribute="height" id="81N-3F-OvS"/>
+                                    <constraint firstAttribute="height" constant="90" id="NRN-hM-HHb"/>
+                                    <constraint firstItem="kSs-vY-dvM" firstAttribute="leading" secondItem="kFp-HZ-LDt" secondAttribute="trailing" id="Osb-rg-2E0"/>
+                                    <constraint firstItem="kSs-vY-dvM" firstAttribute="centerY" secondItem="kFp-HZ-LDt" secondAttribute="centerY" id="SCg-uT-7Zp"/>
+                                    <constraint firstItem="kFp-HZ-LDt" firstAttribute="centerY" secondItem="e4Y-yk-z1W" secondAttribute="centerY" id="Vz1-hw-OpB"/>
+                                    <constraint firstAttribute="trailing" secondItem="kSs-vY-dvM" secondAttribute="trailing" constant="5" id="cDj-PT-fwf"/>
+                                    <constraint firstAttribute="width" constant="240" id="d1W-g8-2CF"/>
+                                    <constraint firstItem="kFp-HZ-LDt" firstAttribute="leading" secondItem="e4Y-yk-z1W" secondAttribute="leading" constant="10" id="fhn-0P-Ehy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e4Y-yk-z1W" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ciB-8Z-dVP"/>
+                            <constraint firstItem="e4Y-yk-z1W" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="160" id="xTL-od-Bu6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-656.79999999999995" y="135.38230884557723"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="9-防盗链.png" width="120" height="120"/>
+    </resources>
 </document>

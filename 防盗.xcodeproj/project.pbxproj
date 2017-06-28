@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41926B21DBF27E100F094AA /* cyx.m4r in Resources */ = {isa = PBXBuildFile; fileRef = C41926B11DBF27E100F094AA /* cyx.m4r */; };
+		C41926B41DBF2BE300F094AA /* fd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C41926B31DBF2BE300F094AA /* fd.mp3 */; };
+		C41DA56B1DC20E0700DCAD35 /* 9-防盗链.png in Resources */ = {isa = PBXBuildFile; fileRef = C41DA56A1DC20E0700DCAD35 /* 9-防盗链.png */; };
 		C46CD7391DBDB7F700395185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CD7381DBDB7F700395185 /* main.m */; };
 		C46CD73C1DBDB7F700395185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CD73B1DBDB7F700395185 /* AppDelegate.m */; };
 		C46CD73F1DBDB7F700395185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CD73E1DBDB7F700395185 /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		C46CD7471DBDB7F800395185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46CD7451DBDB7F800395185 /* LaunchScreen.storyboard */; };
 		C46CD7521DBDB7F800395185 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CD7511DBDB7F800395185 /* __Tests.m */; };
 		C46CD75D1DBDB7F800395185 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CD75C1DBDB7F800395185 /* __UITests.m */; };
+		C46CD76D1DBDBDE100395185 /* AccManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C46CD76C1DBDBDE100395185 /* AccManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C40C2ED61DC058A400E67362 /* aaa.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaa.pch; sourceTree = "<group>"; };
+		C41926B11DBF27E100F094AA /* cyx.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = cyx.m4r; sourceTree = "<group>"; };
+		C41926B31DBF2BE300F094AA /* fd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fd.mp3; sourceTree = "<group>"; };
+		C41DA56A1DC20E0700DCAD35 /* 9-防盗链.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9-防盗链.png"; sourceTree = "<group>"; };
 		C46CD7341DBDB7F700395185 /* 防盗.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "防盗.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46CD7381DBDB7F700395185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C46CD73A1DBDB7F700395185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		C46CD7581DBDB7F800395185 /* 防盗UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "防盗UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46CD75C1DBDB7F800395185 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		C46CD75E1DBDB7F800395185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46CD76B1DBDBDE100395185 /* AccManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccManager.h; sourceTree = "<group>"; };
+		C46CD76C1DBDBDE100395185 /* AccManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,8 @@
 		C46CD72B1DBDB7F700395185 = {
 			isa = PBXGroup;
 			children = (
+				C40C2ED61DC058A400E67362 /* aaa.pch */,
+				C41DA56A1DC20E0700DCAD35 /* 9-防盗链.png */,
 				C46CD7361DBDB7F700395185 /* 防盗 */,
 				C46CD7501DBDB7F800395185 /* 防盗Tests */,
 				C46CD75B1DBDB7F800395185 /* 防盗UITests */,
@@ -103,6 +115,10 @@
 			children = (
 				C46CD73A1DBDB7F700395185 /* AppDelegate.h */,
 				C46CD73B1DBDB7F700395185 /* AppDelegate.m */,
+				C41926B11DBF27E100F094AA /* cyx.m4r */,
+				C41926B31DBF2BE300F094AA /* fd.mp3 */,
+				C46CD76B1DBDBDE100395185 /* AccManager.h */,
+				C46CD76C1DBDBDE100395185 /* AccManager.m */,
 				C46CD73D1DBDB7F700395185 /* ViewController.h */,
 				C46CD73E1DBDB7F700395185 /* ViewController.m */,
 				C46CD7401DBDB7F800395185 /* Main.storyboard */,
@@ -207,7 +223,13 @@
 				TargetAttributes = {
 					C46CD7331DBDB7F700395185 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XSNGUM39HU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					C46CD74C1DBDB7F800395185 = {
 						CreatedOnToolsVersion = 8.0;
@@ -246,9 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41926B41DBF2BE300F094AA /* fd.mp3 in Resources */,
+				C41926B21DBF27E100F094AA /* cyx.m4r in Resources */,
 				C46CD7471DBDB7F800395185 /* LaunchScreen.storyboard in Resources */,
 				C46CD7441DBDB7F800395185 /* Assets.xcassets in Resources */,
 				C46CD7421DBDB7F800395185 /* Main.storyboard in Resources */,
+				C41DA56B1DC20E0700DCAD35 /* 9-防盗链.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46CD73F1DBDB7F700395185 /* ViewController.m in Sources */,
+				C46CD76D1DBDBDE100395185 /* AccManager.m in Sources */,
 				C46CD73C1DBDB7F700395185 /* AppDelegate.m in Sources */,
 				C46CD7391DBDB7F700395185 /* main.m in Sources */,
 			);
@@ -351,7 +377,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -373,6 +400,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -399,7 +427,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -414,6 +443,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -424,10 +454,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XSNGUM39HU;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "防盗/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "clh.--";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clh-fangdao";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -435,10 +472,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XSNGUM39HU;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "防盗/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "clh.--";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clh-fangdao";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -446,6 +490,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/designer/Desktop/防盗/aaa.pch";
 				INFOPLIST_FILE = "防盗Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clh.--Tests";
@@ -458,6 +504,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/designer/Desktop/防盗/aaa.pch";
 				INFOPLIST_FILE = "防盗Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clh.--Tests";
@@ -507,6 +555,7 @@
 				C46CD7631DBDB7F800395185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C46CD7641DBDB7F800395185 /* Build configuration list for PBXNativeTarget "防盗Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +564,7 @@
 				C46CD7661DBDB7F800395185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C46CD7671DBDB7F800395185 /* Build configuration list for PBXNativeTarget "防盗UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +573,7 @@
 				C46CD7691DBDB7F800395185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+extern BOOL kStarApp;
+
 @interface ViewController : UIViewController
 
 
